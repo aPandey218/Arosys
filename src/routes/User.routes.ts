@@ -1,4 +1,3 @@
-// src/routes/User.routes.ts
 import { Router, Request, Response, NextFunction } from "express";
 import { UserController } from "../controllers/User.controller";
 import { auth } from "../middlewares/auth.middleware";

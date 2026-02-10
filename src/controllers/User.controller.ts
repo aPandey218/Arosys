@@ -1,8 +1,6 @@
-// src/controllers/User.controller.ts
 import { Request, Response, NextFunction } from "express";
 import { UserService } from "../services/User.service";
 import { accessToken, refreshToken } from "../utils/jwt.util";
-// import jwt from "jsonwebtoken";
 
 export class UserController {
 
